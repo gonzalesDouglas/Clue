@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Clue</string>
+    <string name="btlogin">LOGIN</string>
+    <string name="textforggetpasswd">Olvido Su Password</string>
+    <string name="textcrearcuenta">Registrese Aqui</string>
+    <string name="minimopassword">6</string>
+    <string name="falloAtenticacion">Fallo Autenticacion</string>
+    <string name="EnterEmail">INGRESE SU EMAIL</string>
+    <string name="EnterPassword">INGRESE SU PASSWORD</string>
+    <string name="ConfirmPassword">CONFIRME SU PASSWORD</string>
+    <string name="registro">REGISTRESE</string>
+    <string name="singUp">Sing Up</string>
+
+</resources>

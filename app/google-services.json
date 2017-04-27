@@ -46,6 +46,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "903582578018-5pr9uscjf373jss9d8ncs5js12efnc41.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dgonzales.douglas.clue",
+            "certificate_hash": "483a0e583fee74a824ad4ed847dfc57a6625b663"
+          }
+        },
+        {
           "client_id": "903582578018-t2dotugi69prgpmnq3m7nqjmg6kk1uat.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

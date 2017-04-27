@@ -31,7 +31,7 @@ public class loginuser extends AppCompatActivity implements View.OnClickListener
         mAuth = FirebaseAuth.getInstance();
 
         if (mAuth.getCurrentUser() != null) {
-            startActivity(new Intent(loginuser.this, dashboard.class));
+            startActivity(new Intent(loginuser.this, Dashboard.class));
             finish();
         }
         setContentView(R.layout.activity_loginuser);
@@ -47,6 +47,7 @@ public class loginuser extends AppCompatActivity implements View.OnClickListener
         mAuth = FirebaseAuth.getInstance();
         mButtonLogin.setOnClickListener(this);
         registrotext.setOnClickListener(this);
+        recupaswwd.setOnClickListener(this);
 
     }
 
@@ -84,7 +85,7 @@ public class loginuser extends AppCompatActivity implements View.OnClickListener
                                         Toast.makeText(loginuser.this,getString(R.string.falloAtenticacion), Toast.LENGTH_SHORT).show();
                                     }
                                 }else{
-                                    Intent intent = new Intent(loginuser.this,dashboard.class);
+                                    Intent intent = new Intent(loginuser.this,Dashboard.class);
                                     startActivity(intent);
                                     finish();
                                 }
@@ -95,6 +96,10 @@ public class loginuser extends AppCompatActivity implements View.OnClickListener
                 break;
             case  R.id.textregistro:
                 startActivity(new Intent(loginuser.this,registro.class));
+                finish();
+                break;
+            case R.id.textolvidopasswd:
+                startActivity(new Intent(loginuser.this,forgetpassword.class));
                 finish();
                 break;
         }

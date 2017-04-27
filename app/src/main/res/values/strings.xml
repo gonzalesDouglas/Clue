@@ -10,5 +10,14 @@
     <string name="ConfirmPassword">CONFIRME SU PASSWORD</string>
     <string name="registro">REGISTRESE</string>
     <string name="singUp">Sing Up</string>
+    <string name="Bienvenido">BIENVENIDO</string>
+    <string name="forget">Olvido Su Password ingrese su email para recuperar su cuenta</string>
+    <string name="resetPassw">Resetear su Contraseña</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 
 </resources>

@@ -20,5 +20,6 @@
 
     <string name="action_settings">Settings</string>
     <string name="result_text_defaul">Por Favor Encuadrar el Codigo Qr con la Camara</string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>
